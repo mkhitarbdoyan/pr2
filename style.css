@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+  
+    width: 100%;
+    background-image: url(img01.jpg);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: initial;
+    
+}
+.content{
+
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+#navbar {
+    margin-top:15px;
+     display: grid;
+     min-height: 55px;
+     grid-auto-flow: column;
+     background-color: #510623;
+     grid-gap: 2px;
+     padding: 0 40px;
+     font-family: system-ui;
+}
+#logo {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+
+}
+
+
+#links {
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+ 
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+}
+
+ #navbar a:hover {
+  color: #ffffff;
+}
+.body{
+  
+    margin: 400px auto;
+}
+.contImg , .section2{
+    margin: 5%;
+    background-color: white;
+}
+.contImg h2 ,.section2{
+    padding: 10% 0% 1% 6%
+}
+.imgBlock{
+    padding: 2% 5% ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+figcaption h4{
+    padding: 4% 0% ;
+}
+figcaption p{
+    padding: 2% 0% ;
+}
+.imgBlock button{
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    background-color: #510623;
+    color: white;
+    margin: 50px 0;
+}
+.section2 p{
+    padding-top: 2%;
+    text-align:inherit;
+    padding-bottom: 7%;
+}
+.section2 a{
+    color:  #510623;
+}
+.copyright{
+    color: lightslategrey;
+
+}
+.copyright a{
+color: lightsteelblue;
+}
+footer{
+    text-align: center;
+}
